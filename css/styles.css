@@ -1,0 +1,89 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+}
+
+.navbar .container {
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  padding-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  flex-flow: column wrap;
+  flex: 1;
+}
+
+div {
+  flex: 1;
+  display: flex;
+}
+
+.text {
+  flex-flow: column wrap;
+  flex: 1;
+}
+
+.header {
+  flex-flow: row wrap;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: wrap;
+  justify-content:space-between;
+}
+
+ul {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  flex-flow: column wrap;
+  justify-content: space-between; 
+  padding: 5px;
+  align-items: center;
+  display: flex;
+}
+
+.box ul {
+  gap: 200px;
+  margin-top: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box ul li {
+  max-width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.navbar, .header, .footer {
+  background-color: #142937;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
